@@ -88,7 +88,7 @@ def gen_from_grammar(grammar,symbol,depth,max_depth):
     production = random.choice(grammar[symbol])
     sentence = ''
     # loop through the list of non terminal grammer to get into terminal
-    if(type(production) == list):
+    if isinstance(production, list):
         for i in production:
             sentence += generate_sentence(grammar,i, depth + 1, max_depth)
     # get the terminal via current symbol
