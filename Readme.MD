@@ -1,5 +1,19 @@
-** code folder => main working code **
+# LLM Assignment 1 - CFGs
 
-** main.py - main file that run the program **
+This repository contains the code for the CFGs Assignment.
 
-** utils.py - function needed for program **
+## Code Structure
+
+The code is organized as follows:
+
+- `main.py`: This file contains the main program that runs the project.
+- `utils.py`: This file contains the functions needed for the program.
+
+## Usage
+
+To run the program, execute the following command:
+
+```bash
+python main.py
+
+
